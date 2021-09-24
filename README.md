@@ -1,7 +1,7 @@
 <h1 align="center"> Hello World <img src="https://github.com/R3TRO04/R3TRO04/blob/main/1861-peepowave.gif" width="40px"> </h1>
 
 
-<h3 align="center">A business Informatics from Austria <img src="https://github.com/R3TRO04/R3TRO04/blob/main/Animated-Flag-Austria.gif" width="29"></h3>
+<h3 align="center">A business Informatics Student from Austria <img src="https://github.com/R3TRO04/R3TRO04/blob/main/Animated-Flag-Austria.gif" width="29"></h3>
 
 - 🔭 I’m currently working on [insta-ripper](https://github.com/R3TRO04/insta-ripper)
 
