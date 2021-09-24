@@ -1,7 +1,7 @@
-### Hello World <img src="https://github.com/R3TRO04/R3TRO04/blob/main/1861-peepowave.gif" width="29px">
+<h1 align="center"> Hello World <img src="https://github.com/R3TRO04/R3TRO04/blob/main/1861-peepowave.gif" width="45px"> </h1>
 
 
-<h3 align="center">A business Informatics from Austria <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fde.m.wikipedia.org%2Fwiki%2FDatei%3AAnimated-Flag-Austria.gif&psig=AOvVaw1tL90X3pSjbWJ_vRrEU4mB&ust=1632584539964000&source=images&cd=vfe&ved=0CAkQjRxqFwoTCPCagMT5l_MCFQAAAAAdAAAAABAJ" width="29"></h3>
+<h3 align="center">A business Informatics from Austria <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fde.m.wikipedia.org%2Fwiki%2FDatei%3AAnimated-Flag-Austria.gifJ" width="29"></h3>
 
 - 🔭 I’m currently working on [insta-ripper](https://github.com/R3TRO04/insta-ripper)
 
