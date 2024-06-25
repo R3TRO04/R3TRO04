@@ -1,7 +1,4 @@
 <h1 align="center">Hello World 👋</h1>
-<p align="center">
-  <img src="https://github.com/R3TRO04/R3TRO04/blob/main/your-image.gif" width="80px">
-</p>
 
 <h3 align="center">A Business Informatics Student and Software Engineer from Austria 🇦🇹</h3>
 
@@ -72,5 +69,3 @@
     <img src="https://img.icons8.com/color/48/000000/discord-logo.png" alt="Discord">
   </a>
 </p>
-
-<!-- Additional Sections Here -->
