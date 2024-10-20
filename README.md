@@ -1,6 +1,8 @@
 <h1 align="center">Hello World 👋</h1>
 
-<h3 align="center">A Business Informatics Student and Software Engineer from Austria 🇦🇹</h3>
+<h3 align="center">A Business Informatics Student and Software Engineer from Austria
+<img src="https://github.com/R3TRO04/R3TRO04/blob/59902a16d632d45284435c6bbed8685126847325/Animated-Flag-Austria.gif" width="20">
+</h3>
 
 <p align="center">
   <a href="https://github.com/JetBrains/kotlin">
