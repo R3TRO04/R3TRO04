@@ -147,12 +147,15 @@
   </p>
 </details>
 
-### Connect with Me
+### 🌍 Connect with Me
 
 <p align="left">
   <a href="https://discord.gg/R3TRO#0409">
-    <img src="https://img.icons8.com/color/50/000000/discord-logo.png" alt="Discord">
+    <img src="https://img.icons8.com/color/100/000000/discord-logo.png" alt="Discord" width="40" height="40">
+  </a>
+  <a href="https://www.linkedin.com/in/nico-beranek/">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" alt="LinkedIn" width="40" height="40"/>
   </a>
   <a href="mailto:nico@jube.at">
-    <img src="https://img.icons8.com/?size=50&id=44829&format=png" alt="E-Mail">
+    <img src="https://img.icons8.com/?size=100&id=44829&format=png" alt="E-Mail" width="40" height="40">
 </p>
