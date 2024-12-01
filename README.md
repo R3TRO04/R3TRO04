@@ -2,7 +2,7 @@
   <img src="https://github.com/R3TRO04/R3TRO04/blob/c0a621cd2f02904be9115c2f040e3b860cfc0d2e/1861-peepowave.gif" width="30">
 </h1>
 
-<h3 align="center">A Business Informatics Student and Software Engineer from Austria
+<h3 align="center">A Software Engineer from Austria
   <img src="https://github.com/R3TRO04/R3TRO04/blob/59902a16d632d45284435c6bbed8685126847325/Animated-Flag-Austria.gif" width="20">
 </h3>
 
