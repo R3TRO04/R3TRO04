@@ -2,8 +2,6 @@
 
 <img src="banner.svg" width="100%" alt="Hello World — Software Engineer from Austria" />
 
-<img src="1861-peepowave.gif" width="38" alt="peepo wave" />
-
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3500&pause=1000&center=true&vCenter=true&width=480&color=58A6FF&lines=Crafting+backends+with+Kotlin+%26+Ktor;Building+UIs+with+Angular+%26+htmx;Fueled+by+energy+drinks+%E2%9A%A1">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3500&pause=1000&center=true&vCenter=true&width=480&color=0969DA&lines=Crafting+backends+with+Kotlin+%26+Ktor;Building+UIs+with+Angular+%26+htmx;Fueled+by+energy+drinks+%E2%9A%A1" alt="Crafting backends with Kotlin &amp; Ktor, building UIs with Angular &amp; htmx, fueled by energy drinks" />
