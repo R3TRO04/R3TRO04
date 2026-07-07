@@ -5,8 +5,8 @@
 ### A Software Engineer from Austria <img src="Animated-Flag-Austria.gif" width="22" alt="Austrian flag" />
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3500&pause=1000&center=true&vCenter=true&width=480&color=58A6FF&lines=Kotlin+%26+Angular+by+day+%F0%9F%8C%9E;Swift+%26+Gleam+by+night+%F0%9F%8C%99;Building+with+Ktor%2C+Spring+%26+htmx;Fueled+by+coffee+%E2%98%95">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3500&pause=1000&center=true&vCenter=true&width=480&color=0969DA&lines=Kotlin+%26+Angular+by+day+%F0%9F%8C%9E;Swift+%26+Gleam+by+night+%F0%9F%8C%99;Building+with+Ktor%2C+Spring+%26+htmx;Fueled+by+coffee+%E2%98%95" alt="Kotlin &amp; Angular by day, Swift &amp; Gleam by night" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3500&pause=1000&center=true&vCenter=true&width=480&color=58A6FF&lines=Kotlin+%26+Angular+by+day+%F0%9F%8C%9E;Swift+%26+Gleam+by+night+%F0%9F%8C%99;Building+with+Ktor%2C+Spring+%26+htmx;Fueled+by+energy+drinks+%E2%9A%A1">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3500&pause=1000&center=true&vCenter=true&width=480&color=0969DA&lines=Kotlin+%26+Angular+by+day+%F0%9F%8C%9E;Swift+%26+Gleam+by+night+%F0%9F%8C%99;Building+with+Ktor%2C+Spring+%26+htmx;Fueled+by+energy+drinks+%E2%9A%A1" alt="Kotlin &amp; Angular by day, Swift &amp; Gleam by night" />
 </picture>
 
 <br/>
@@ -16,6 +16,9 @@
 </a>
 <a href="https://github.com/JetBrains/kotlin">
   <img src="https://img.shields.io/badge/Kotlin-Mastering-orange?style=flat&logo=kotlin" alt="Kotlin — Mastering">
+</a>
+<a href="https://openjdk.org/">
+  <img src="https://img.shields.io/badge/Java-Mastering-orange?style=flat&logo=openjdk" alt="Java — Mastering">
 </a>
 <a href="https://github.com/swiftlang/swift">
   <img src="https://img.shields.io/badge/Swift-Researching-green?style=flat&logo=swift" alt="Swift — Researching">
@@ -32,15 +35,15 @@
 
 <p>
   <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=angular,ts,js,html,css,sass,jest" alt="Angular, TypeScript, JavaScript, HTML, CSS, Sass, Jest" /></a>
-  <a href="https://htmx.org/"><img src="https://htmx.org/img/kawaii.png" alt="htmx" height="48" /></a>
+  <a href="https://htmx.org/"><img src="icons/htmx.svg" alt="htmx" width="48" height="48" /></a>
 </p>
 
 **⚙️ Backend**
 
 <p>
   <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=kotlin,ktor,java,spring,php,nodejs" alt="Kotlin, Ktor, Java, Spring, PHP, Node.js" /></a>
-  <a href="https://junit.org/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/junit/junit-original.svg" alt="JUnit" height="48" /></a>
-  <a href="https://site.mockito.org/"><img src="https://javadoc.io/static/org.mockito/mockito-core/5.14.2/org/mockito/logo.png" alt="Mockito" height="48" /></a>
+  <a href="https://junit.org/"><img src="icons/junit.svg" alt="JUnit" width="48" height="48" /></a>
+  <a href="https://site.mockito.org/"><img src="icons/mockito.svg" alt="Mockito" width="48" height="48" /></a>
 </p>
 
 **📦 Database & DevOps**
@@ -53,28 +56,15 @@
 
 <p>
   <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=gradle,maven,postman,npm,pnpm,bun,deno,idea" alt="Gradle, Maven, Postman, npm, pnpm, Bun, Deno, IntelliJ IDEA" /></a>
-  <a href="https://apidog.com/"><img src="icons/apidog-seeklogo.svg" alt="Apidog" height="48" /></a>
+  <a href="https://apidog.com/"><img src="icons/apidog.svg" alt="Apidog" width="48" height="48" /></a>
 </p>
 
-## 📊 GitHub Stats
+**🔭 Currently Exploring**
 
-<div align="center">
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=R3TRO04&show_icons=true&theme=tokyonight&hide_border=true&bg_color=00000000&rank_icon=github">
-  <img src="https://github-readme-stats.vercel.app/api?username=R3TRO04&show_icons=true&theme=default&hide_border=true&bg_color=00000000&rank_icon=github" alt="GitHub stats" height="165" />
-</picture>
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=R3TRO04&layout=compact&theme=tokyonight&hide_border=true&bg_color=00000000">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=R3TRO04&layout=compact&theme=default&hide_border=true&bg_color=00000000" alt="Top languages" height="165" />
-</picture>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=R3TRO04&theme=tokyonight&hide_border=true&background=00000000">
-  <img src="https://streak-stats.demolab.com?user=R3TRO04&hide_border=true&background=00000000" alt="GitHub streak" height="165" />
-</picture>
-
-</div>
+<p>
+  <a href="https://www.swift.org/"><img src="https://skillicons.dev/icons?i=swift" alt="Swift" /></a>
+  <a href="https://gleam.run/"><img src="icons/gleam.svg" alt="Gleam" width="48" height="48" /></a>
+</p>
 
 ## 🌍 Connect with Me
 
@@ -85,7 +75,7 @@
   <a href="mailto:nico@jube.at">
     <img src="https://img.shields.io/badge/Email-nico%40jube.at-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="E-Mail" />
   </a>
-  <img src="https://img.shields.io/badge/Discord-R3TRO-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" />
+  <img src="https://img.shields.io/badge/Discord-r3t.ro-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord — r3t.ro" />
 </p>
 
 <div align="center">
