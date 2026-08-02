@@ -37,6 +37,21 @@
     <filter id="neon" x="-80%" y="-80%" width="260%" height="260%">
       <feGaussianBlur stdDeviation="6"/>
     </filter>
+    <filter id="halo" x="-40%" y="-60%" width="180%" height="260%">
+      <feGaussianBlur stdDeviation="9"/>
+    </filter>
+    <radialGradient id="static-fade">
+      <stop offset="0.35" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#000000"/>
+    </radialGradient>
+    <mask id="static-mask"><rect x="150" y="66" width="520" height="64" fill="url(#static-fade)"/></mask>
+    <filter id="static">
+      <feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="2"/>
+      <feColorMatrix type="saturate" values="0"/>
+    </filter>
+    <clipPath id="tear0"><rect x="150" y="76" width="520" height="15"/></clipPath>
+    <clipPath id="tear1"><rect x="150" y="91" width="520" height="14"/></clipPath>
+    <clipPath id="tear2"><rect x="150" y="105" width="520" height="16"/></clipPath>
   </defs>
 
   <g clip-path="url(#card)">
@@ -114,9 +129,57 @@
     <!-- arcade HUD -->
     <text x="28" y="36" font-size="11" fill="#2de2e6" opacity="0.85">PLAYER 1 - NICO THOMAS BERANEK</text>
 
-    <!-- title: pink offset shadow + cyan front -->
-    <text x="414" y="114" font-size="40" fill="#ff2fb3" text-anchor="middle" opacity="0.9">HELLO WORLD</text>
-    <text x="410" y="110" font-size="40" fill="#f3fdfd" text-anchor="middle">HELLO WORLD</text>
+    <!-- title: a neon tube whose letters flicker, torn sideways in glitch bursts -->
+    <g>
+      <g filter="url(#halo)" opacity="0.55">
+        <animate attributeName="opacity" values="0.4;0.7;0.45;0.65;0.4" dur="3.4s" repeatCount="indefinite"/>
+        <text x="410" y="110" font-size="40" fill="#ff2fb3" text-anchor="middle">HELLO WORLD</text>
+      </g>
+      <text x="414" y="114" font-size="40" fill="#ff2fb3" text-anchor="middle" opacity="0.85">HELLO WORLD</text>
+      <g clip-path="url(#tear0)">
+        <animateTransform attributeName="transform" type="translate" values="0 0;26 0;-13 0;0 0;-26 0;13 0;0 0;13 0;-7 0;0 0;0 0" keyTimes="0.0000;0.3000;0.3225;0.3450;0.6200;0.6375;0.6550;0.8500;0.8640;0.8780;1.0000" calcMode="discrete" dur="5s" repeatCount="indefinite"/>
+        <text x="190" y="110" font-size="40" fill="#f3fdfd">H<animate attributeName="opacity" values="1;0.12;1;0.35;1;0.12;1;0.35;1;1" keyTimes="0.0000;0.1957;0.2307;0.2557;0.2807;0.5165;0.5515;0.5765;0.6015;1.0000" calcMode="discrete" dur="6s" repeatCount="indefinite"/></text>
+        <text x="230" y="110" font-size="40" fill="#f3fdfd">E<animate attributeName="opacity" values="1;0.12;1;0.35;1;0.12;1;0.35;1;0.12;1;0.35;1;1" keyTimes="0.0000;0.0826;0.1176;0.1426;0.1676;0.5073;0.5423;0.5673;0.5923;0.8860;0.9210;0.9460;0.9710;1.0000" calcMode="discrete" dur="6s" repeatCount="indefinite"/></text>
+        <text x="270" y="110" font-size="40" fill="#f3fdfd">L<animate attributeName="opacity" values="1;0.12;1;0.35;1;0.12;1;0.35;1;1" keyTimes="0.0000;0.2783;0.3133;0.3383;0.3633;0.5685;0.6035;0.6285;0.6535;1.0000" calcMode="discrete" dur="6s" repeatCount="indefinite"/></text>
+        <text x="310" y="110" font-size="40" fill="#f3fdfd">L<animate attributeName="opacity" values="1;0.12;1;0.35;1;0.12;1;0.35;1;0.12;1;0.35;1;1" keyTimes="0.0000;0.0814;0.1164;0.1414;0.1664;0.3859;0.4209;0.4459;0.4709;0.7805;0.8155;0.8405;0.8655;1.0000" calcMode="discrete" dur="6s" repeatCount="indefinite"/></text>
+        <text x="350" y="110" font-size="40" fill="#f3fdfd">O<animate attributeName="opacity" values="1;0.12;1;0.35;1;0.12;1;0.35;1;0.12;1;0.35;1;1" keyTimes="0.0000;0.1057;0.1407;0.1657;0.1907;0.4460;0.4810;0.5060;0.5310;0.8954;0.9304;0.9554;0.9804;1.0000" calcMode="discrete" dur="6s" repeatCount="indefinite"/></text>
+        <text x="430" y="110" font-size="40" fill="#f3fdfd">W<animate attributeName="opacity" values="1;0.12;1;0.35;1;0.12;1;0.35;1;1" keyTimes="0.0000;0.3097;0.3447;0.3697;0.3947;0.6968;0.7318;0.7568;0.7818;1.0000" calcMode="discrete" dur="6s" repeatCount="indefinite"/></text>
+        <text x="470" y="110" font-size="40" fill="#f3fdfd">O<animate attributeName="opacity" values="1;0.12;1;0.35;1;0.12;1;0.35;1;0.12;1;0.35;1;1" keyTimes="0.0000;0.0710;0.1060;0.1310;0.1560;0.5827;0.6177;0.6427;0.6677;0.9409;0.9759;1.0000;1.0000;1.0000" calcMode="discrete" dur="6s" repeatCount="indefinite"/></text>
+        <text x="510" y="110" font-size="40" fill="#f3fdfd">R<animate attributeName="opacity" values="1;0.12;1;0.35;1;0.12;1;0.35;1;1" keyTimes="0.0000;0.1030;0.1380;0.1630;0.1880;0.4663;0.5013;0.5263;0.5513;1.0000" calcMode="discrete" dur="6s" repeatCount="indefinite"/></text>
+        <text x="550" y="110" font-size="40" fill="#f3fdfd">L<animate attributeName="opacity" values="1;0.12;1;0.35;1;0.12;1;0.35;1;1" keyTimes="0.0000;0.1313;0.1663;0.1913;0.2163;0.5684;0.6034;0.6284;0.6534;1.0000" calcMode="discrete" dur="6s" repeatCount="indefinite"/></text>
+        <text x="590" y="110" font-size="40" fill="#f3fdfd">D<animate attributeName="opacity" values="1;0.12;1;0.35;1;0.12;1;0.35;1;0.12;1;0.35;1;1" keyTimes="0.0000;0.2176;0.2526;0.2776;0.3026;0.6455;0.6805;0.7055;0.7305;0.9424;0.9774;1.0000;1.0000;1.0000" calcMode="discrete" dur="6s" repeatCount="indefinite"/></text>
+      </g>
+      <g clip-path="url(#tear1)">
+        <animateTransform attributeName="transform" type="translate" values="0 0;-18 0;9 0;0 0;18 0;-9 0;0 0;-9 0;4 0;0 0;0 0" keyTimes="0.0000;0.3000;0.3225;0.3450;0.6200;0.6375;0.6550;0.8500;0.8640;0.8780;1.0000" calcMode="discrete" dur="5s" repeatCount="indefinite"/>
+        <text x="190" y="110" font-size="40" fill="#f3fdfd">H<animate attributeName="opacity" values="1;0.12;1;0.35;1;0.12;1;0.35;1;1" keyTimes="0.0000;0.1957;0.2307;0.2557;0.2807;0.5165;0.5515;0.5765;0.6015;1.0000" calcMode="discrete" dur="6s" repeatCount="indefinite"/></text>
+        <text x="230" y="110" font-size="40" fill="#f3fdfd">E<animate attributeName="opacity" values="1;0.12;1;0.35;1;0.12;1;0.35;1;0.12;1;0.35;1;1" keyTimes="0.0000;0.0826;0.1176;0.1426;0.1676;0.5073;0.5423;0.5673;0.5923;0.8860;0.9210;0.9460;0.9710;1.0000" calcMode="discrete" dur="6s" repeatCount="indefinite"/></text>
+        <text x="270" y="110" font-size="40" fill="#f3fdfd">L<animate attributeName="opacity" values="1;0.12;1;0.35;1;0.12;1;0.35;1;1" keyTimes="0.0000;0.2783;0.3133;0.3383;0.3633;0.5685;0.6035;0.6285;0.6535;1.0000" calcMode="discrete" dur="6s" repeatCount="indefinite"/></text>
+        <text x="310" y="110" font-size="40" fill="#f3fdfd">L<animate attributeName="opacity" values="1;0.12;1;0.35;1;0.12;1;0.35;1;0.12;1;0.35;1;1" keyTimes="0.0000;0.0814;0.1164;0.1414;0.1664;0.3859;0.4209;0.4459;0.4709;0.7805;0.8155;0.8405;0.8655;1.0000" calcMode="discrete" dur="6s" repeatCount="indefinite"/></text>
+        <text x="350" y="110" font-size="40" fill="#f3fdfd">O<animate attributeName="opacity" values="1;0.12;1;0.35;1;0.12;1;0.35;1;0.12;1;0.35;1;1" keyTimes="0.0000;0.1057;0.1407;0.1657;0.1907;0.4460;0.4810;0.5060;0.5310;0.8954;0.9304;0.9554;0.9804;1.0000" calcMode="discrete" dur="6s" repeatCount="indefinite"/></text>
+        <text x="430" y="110" font-size="40" fill="#f3fdfd">W<animate attributeName="opacity" values="1;0.12;1;0.35;1;0.12;1;0.35;1;1" keyTimes="0.0000;0.3097;0.3447;0.3697;0.3947;0.6968;0.7318;0.7568;0.7818;1.0000" calcMode="discrete" dur="6s" repeatCount="indefinite"/></text>
+        <text x="470" y="110" font-size="40" fill="#f3fdfd">O<animate attributeName="opacity" values="1;0.12;1;0.35;1;0.12;1;0.35;1;0.12;1;0.35;1;1" keyTimes="0.0000;0.0710;0.1060;0.1310;0.1560;0.5827;0.6177;0.6427;0.6677;0.9409;0.9759;1.0000;1.0000;1.0000" calcMode="discrete" dur="6s" repeatCount="indefinite"/></text>
+        <text x="510" y="110" font-size="40" fill="#f3fdfd">R<animate attributeName="opacity" values="1;0.12;1;0.35;1;0.12;1;0.35;1;1" keyTimes="0.0000;0.1030;0.1380;0.1630;0.1880;0.4663;0.5013;0.5263;0.5513;1.0000" calcMode="discrete" dur="6s" repeatCount="indefinite"/></text>
+        <text x="550" y="110" font-size="40" fill="#f3fdfd">L<animate attributeName="opacity" values="1;0.12;1;0.35;1;0.12;1;0.35;1;1" keyTimes="0.0000;0.1313;0.1663;0.1913;0.2163;0.5684;0.6034;0.6284;0.6534;1.0000" calcMode="discrete" dur="6s" repeatCount="indefinite"/></text>
+        <text x="590" y="110" font-size="40" fill="#f3fdfd">D<animate attributeName="opacity" values="1;0.12;1;0.35;1;0.12;1;0.35;1;0.12;1;0.35;1;1" keyTimes="0.0000;0.2176;0.2526;0.2776;0.3026;0.6455;0.6805;0.7055;0.7305;0.9424;0.9774;1.0000;1.0000;1.0000" calcMode="discrete" dur="6s" repeatCount="indefinite"/></text>
+      </g>
+      <g clip-path="url(#tear2)">
+        <animateTransform attributeName="transform" type="translate" values="0 0;12 0;-6 0;0 0;-12 0;6 0;0 0;6 0;-3 0;0 0;0 0" keyTimes="0.0000;0.3000;0.3225;0.3450;0.6200;0.6375;0.6550;0.8500;0.8640;0.8780;1.0000" calcMode="discrete" dur="5s" repeatCount="indefinite"/>
+        <text x="190" y="110" font-size="40" fill="#f3fdfd">H<animate attributeName="opacity" values="1;0.12;1;0.35;1;0.12;1;0.35;1;1" keyTimes="0.0000;0.1957;0.2307;0.2557;0.2807;0.5165;0.5515;0.5765;0.6015;1.0000" calcMode="discrete" dur="6s" repeatCount="indefinite"/></text>
+        <text x="230" y="110" font-size="40" fill="#f3fdfd">E<animate attributeName="opacity" values="1;0.12;1;0.35;1;0.12;1;0.35;1;0.12;1;0.35;1;1" keyTimes="0.0000;0.0826;0.1176;0.1426;0.1676;0.5073;0.5423;0.5673;0.5923;0.8860;0.9210;0.9460;0.9710;1.0000" calcMode="discrete" dur="6s" repeatCount="indefinite"/></text>
+        <text x="270" y="110" font-size="40" fill="#f3fdfd">L<animate attributeName="opacity" values="1;0.12;1;0.35;1;0.12;1;0.35;1;1" keyTimes="0.0000;0.2783;0.3133;0.3383;0.3633;0.5685;0.6035;0.6285;0.6535;1.0000" calcMode="discrete" dur="6s" repeatCount="indefinite"/></text>
+        <text x="310" y="110" font-size="40" fill="#f3fdfd">L<animate attributeName="opacity" values="1;0.12;1;0.35;1;0.12;1;0.35;1;0.12;1;0.35;1;1" keyTimes="0.0000;0.0814;0.1164;0.1414;0.1664;0.3859;0.4209;0.4459;0.4709;0.7805;0.8155;0.8405;0.8655;1.0000" calcMode="discrete" dur="6s" repeatCount="indefinite"/></text>
+        <text x="350" y="110" font-size="40" fill="#f3fdfd">O<animate attributeName="opacity" values="1;0.12;1;0.35;1;0.12;1;0.35;1;0.12;1;0.35;1;1" keyTimes="0.0000;0.1057;0.1407;0.1657;0.1907;0.4460;0.4810;0.5060;0.5310;0.8954;0.9304;0.9554;0.9804;1.0000" calcMode="discrete" dur="6s" repeatCount="indefinite"/></text>
+        <text x="430" y="110" font-size="40" fill="#f3fdfd">W<animate attributeName="opacity" values="1;0.12;1;0.35;1;0.12;1;0.35;1;1" keyTimes="0.0000;0.3097;0.3447;0.3697;0.3947;0.6968;0.7318;0.7568;0.7818;1.0000" calcMode="discrete" dur="6s" repeatCount="indefinite"/></text>
+        <text x="470" y="110" font-size="40" fill="#f3fdfd">O<animate attributeName="opacity" values="1;0.12;1;0.35;1;0.12;1;0.35;1;0.12;1;0.35;1;1" keyTimes="0.0000;0.0710;0.1060;0.1310;0.1560;0.5827;0.6177;0.6427;0.6677;0.9409;0.9759;1.0000;1.0000;1.0000" calcMode="discrete" dur="6s" repeatCount="indefinite"/></text>
+        <text x="510" y="110" font-size="40" fill="#f3fdfd">R<animate attributeName="opacity" values="1;0.12;1;0.35;1;0.12;1;0.35;1;1" keyTimes="0.0000;0.1030;0.1380;0.1630;0.1880;0.4663;0.5013;0.5263;0.5513;1.0000" calcMode="discrete" dur="6s" repeatCount="indefinite"/></text>
+        <text x="550" y="110" font-size="40" fill="#f3fdfd">L<animate attributeName="opacity" values="1;0.12;1;0.35;1;0.12;1;0.35;1;1" keyTimes="0.0000;0.1313;0.1663;0.1913;0.2163;0.5684;0.6034;0.6284;0.6534;1.0000" calcMode="discrete" dur="6s" repeatCount="indefinite"/></text>
+        <text x="590" y="110" font-size="40" fill="#f3fdfd">D<animate attributeName="opacity" values="1;0.12;1;0.35;1;0.12;1;0.35;1;0.12;1;0.35;1;1" keyTimes="0.0000;0.2176;0.2526;0.2776;0.3026;0.6455;0.6805;0.7055;0.7305;0.9424;0.9774;1.0000;1.0000;1.0000" calcMode="discrete" dur="6s" repeatCount="indefinite"/></text>
+      </g>
+      <text x="404" y="110" font-size="40" fill="#ff2f4f" text-anchor="middle" opacity="0">HELLO WORLD
+        <animate attributeName="opacity" values="0;0.8;0;0.8;0;0.8;0;0" keyTimes="0.0000;0.3000;0.3450;0.6200;0.6550;0.8500;0.8780;1.0000" calcMode="discrete" dur="5s" repeatCount="indefinite"/></text>
+      <text x="416" y="110" font-size="40" fill="#2de2e6" text-anchor="middle" opacity="0">HELLO WORLD
+        <animate attributeName="opacity" values="0;0.8;0;0.8;0;0.8;0;0" keyTimes="0.0000;0.3000;0.3450;0.6200;0.6550;0.8500;0.8780;1.0000" calcMode="discrete" dur="5s" repeatCount="indefinite"/></text>
+    </g>
 
     <!-- subtitle on the grid -->
     <text x="410" y="264" font-size="13" fill="#2de2e6" text-anchor="middle">SOFTWARE ENGINEER FROM AUSTRIA</text>
@@ -127,8 +190,16 @@
     </g>
 
 
+    <!-- glitch static, confined to the title band -->
+    <rect x="150" y="66" width="520" height="64" filter="url(#static)" mask="url(#static-mask)" opacity="0" style="mix-blend-mode:screen">
+      <animate attributeName="opacity" values="0;0.55;0;0.55;0;0.55;0;0" keyTimes="0.0000;0.3000;0.3450;0.6200;0.6550;0.8500;0.8780;1.0000" calcMode="discrete" dur="5s" repeatCount="indefinite"/>
+    </rect>
+
     <!-- CRT overlays -->
     <rect width="820" height="300" fill="url(#scan)" opacity="0.22"/>
     <rect width="820" height="300" fill="url(#vignette)"/>
+    <rect x="0" y="0" width="820" height="26" fill="#ffffff" opacity="0.05">
+      <animate attributeName="y" values="-30;300" dur="2.7s" repeatCount="indefinite"/>
+    </rect>
   </g>
 </svg>
