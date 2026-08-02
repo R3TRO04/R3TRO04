@@ -108,6 +108,8 @@ def inner(src, key, bx, by, bw, bh, wrap_fill=None, recolor=None):
         vbs = f"0 0 {vw} {vh}"
     body = re.sub(r'^<svg[^>]*>', '', src, count=1)
     body = re.sub(r'</svg>\s*$', '', body)
+    # source logos ship <title> elements, which render as hover tooltips
+    body = re.sub(r'<title>.*?</title>', '', body, flags=re.S)
     body = _ns_ids(body, key)
     if recolor:
         for a, b in recolor.items(): body = body.replace(a, b)
@@ -260,20 +262,24 @@ def badge(left, right, accent, out, size=9):
   <rect x="0.75" y="0.75" width="{w-1.5}" height="{h-1.5}" rx="6.25" fill="none" stroke="{accent}" stroke-opacity="0.55" stroke-width="1.5"/>
 </svg>''')
 
-badge("TWINFORMATICS", "WORKING",       CYAN,   "b-twinformatics.svg")
-badge("KOTLIN",        "MASTERING",     PINK,   "b-kotlin.svg")
-badge("JAVA",          "MASTERING",     PINK,   "b-java.svg")
 badge("LINKEDIN",      "NICO BERANEK",  CYAN,   "b-linkedin.svg")
 badge("EMAIL",         "NICO@JUBE.AT",  YELLOW, "b-email.svg")
 badge("DISCORD",       "R3T.RO",        VIOLET, "b-discord.svg")
 
 # ---------- typing tagline (self-hosted, same font as everything else) ----------
-LINES = ["CRAFTING BACKENDS WITH KOTLIN & KTOR",
-         "BUILDING UIS WITH ANGULAR & HTMX",
+LINES = ["KOTLIN + KTOR + POSTGRESQL",
+         "JAVA + SPRING + MYSQL",
+         "ANGULAR + TYPESCRIPT + SASS",
+         "NODE.JS + DENO + MONGODB",
+         "PHP + HTMX + REDIS",
+         "KOTLIN + SPRING + REDIS",
+         "ANGULAR + KTOR + POSTGRESQL",
+         "DOCKER + KUBERNETES + GITLAB CI",
+         "JUNIT + MOCKITO + JEST",
          "FUELED BY ENERGY DRINKS"]
 SIZE, W, H = 14, 820, 54
 ADV, CX = SIZE, W / 2
-PER = 4.5
+PER = 3.6
 TOTAL = PER * len(LINES)
 TYPE_FRAC = 0.45
 
@@ -310,4 +316,4 @@ save("tagline.svg", f'''<svg {XMLNS} width="{W}" height="{H}" viewBox="0 0 {W} {
   <style>{FF} {THEME}</style>
 {chr(10).join(groups)}
 </svg>''')
-print("headers, 6 badges, tagline written")
+print("headers, badges and tagline written")

@@ -1,23 +1,20 @@
-<img src="banner.svg" width="100%" alt="Hello World — Nico Thomas Beranek, Software Engineer from Austria" />
+<!-- The decorative images are wrapped in an anchor with no href so they stay
+     inert: GitHub links a bare <img> to the raw file, but skips one that is
+     already inside a link. -->
+<a><img src="banner.svg" width="100%" alt="Hello World — Nico Thomas Beranek, Software Engineer from Austria" /></a>
 
-<img src="icons/tagline.svg" width="100%" alt="Crafting backends with Kotlin and Ktor · Building UIs with Angular and htmx · Fueled by energy drinks" />
+<a><img src="icons/tagline.svg" width="100%" alt="Kotlin, Ktor and PostgreSQL · Java, Spring and MySQL · Angular, TypeScript and Sass · Node.js, Deno and MongoDB · PHP, htmx and Redis · Docker, Kubernetes and GitLab CI · JUnit, Mockito and Jest · Fueled by energy drinks" /></a>
 
-<a href="https://www.twinformatics.at"><img src="icons/b-twinformatics.svg" alt="twinformatics — working" /></a>
-<a href="https://github.com/JetBrains/kotlin"><img src="icons/b-kotlin.svg" alt="Kotlin — mastering" /></a>
-<a href="https://openjdk.org/"><img src="icons/b-java.svg" alt="Java — mastering" /></a>
+<a><img src="icons/h-stack.svg" alt="Choose your weapon — tech stack" /></a>
 
-<br />
+<a><img src="icons/panel-stack.svg" width="100%" alt="Stage 1 Frontend: Angular, TypeScript, JavaScript, HTML5, CSS3, Sass, Jest, htmx. Stage 2 Backend: Kotlin, Ktor, Java, Spring, PHP, Node.js, JUnit, Mockito. Stage 3 Database and DevOps: MySQL, PostgreSQL, MongoDB, Redis, Docker, Kubernetes, Bash, GitLab, Google Cloud. Stage 4 Tools: Gradle, Maven, Postman, npm, pnpm, Bun, Deno, IntelliJ IDEA, Apidog. Bonus stage, currently exploring: Swift and Gleam." /></a>
 
-<img src="icons/h-stack.svg" alt="Choose your weapon — tech stack" />
+<a><img src="icons/h-connect.svg" alt="Multiplayer mode — connect with me" /></a>
 
-<img src="icons/panel-stack.svg" width="100%" alt="Stage 1 Frontend: Angular, TypeScript, JavaScript, HTML5, CSS3, Sass, Jest, htmx. Stage 2 Backend: Kotlin, Ktor, Java, Spring, PHP, Node.js, JUnit, Mockito. Stage 3 Database and DevOps: MySQL, PostgreSQL, MongoDB, Redis, Docker, Kubernetes, Bash, GitLab, Google Cloud. Stage 4 Tools: Gradle, Maven, Postman, npm, pnpm, Bun, Deno, IntelliJ IDEA, Apidog. Bonus stage, currently exploring: Swift and Gleam." />
+<p align="center">
+  <a href="https://www.linkedin.com/in/nico-beranek/"><img src="icons/b-linkedin.svg" alt="LinkedIn — Nico Beranek" /></a>
+  <a href="mailto:nico@jube.at"><img src="icons/b-email.svg" alt="E-Mail — nico@jube.at" /></a>
+  <img src="icons/b-discord.svg" alt="Discord — r3t.ro" />
+</p>
 
-<img src="icons/h-connect.svg" alt="Multiplayer mode — connect with me" />
-
-<a href="https://www.linkedin.com/in/nico-beranek/"><img src="icons/b-linkedin.svg" alt="LinkedIn — Nico Beranek" /></a>
-<a href="mailto:nico@jube.at"><img src="icons/b-email.svg" alt="E-Mail — nico@jube.at" /></a>
-<img src="icons/b-discord.svg" alt="Discord — r3t.ro" />
-
-<br />
-
-<img src="footer.svg" width="100%" alt="Thanks for playing" />
+<a><img src="footer.svg" width="100%" alt="Thanks for playing" /></a>

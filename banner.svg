@@ -119,27 +119,13 @@
     <text x="410" y="110" font-size="40" fill="#f3fdfd" text-anchor="middle">HELLO WORLD</text>
 
     <!-- subtitle on the grid -->
-    <text x="410" y="242" font-size="13" fill="#2de2e6" text-anchor="middle">SOFTWARE ENGINEER FROM AUSTRIA</text>
+    <text x="410" y="264" font-size="13" fill="#2de2e6" text-anchor="middle">SOFTWARE ENGINEER FROM AUSTRIA</text>
     <g shape-rendering="crispEdges">
-      <rect x="622" y="230" width="21" height="5" fill="#ED2939"/>
-      <rect x="622" y="235" width="21" height="4" fill="#ffffff"/>
-      <rect x="622" y="239" width="21" height="5" fill="#ED2939"/>
+      <rect x="622" y="252" width="21" height="5" fill="#ED2939"/>
+      <rect x="622" y="257" width="21" height="4" fill="#ffffff"/>
+      <rect x="622" y="261" width="21" height="5" fill="#ED2939"/>
     </g>
 
-    <!-- arcade continue countdown -->
-    <g>
-      <text x="344" y="278" font-size="12" fill="#ffd319">CONTINUE?</text>
-      <text x="464" y="278" font-size="12" fill="#ffd319" opacity="1">9<animate attributeName="opacity" values="1;0" keyTimes="0;0.1" calcMode="discrete" dur="10s" repeatCount="indefinite"/></text>
-      <text x="464" y="278" font-size="12" fill="#ffd319" opacity="0">8<animate attributeName="opacity" values="0;1;0" keyTimes="0;0.1;0.2" calcMode="discrete" dur="10s" repeatCount="indefinite"/></text>
-      <text x="464" y="278" font-size="12" fill="#ffd319" opacity="0">7<animate attributeName="opacity" values="0;1;0" keyTimes="0;0.2;0.3" calcMode="discrete" dur="10s" repeatCount="indefinite"/></text>
-      <text x="464" y="278" font-size="12" fill="#ffd319" opacity="0">6<animate attributeName="opacity" values="0;1;0" keyTimes="0;0.3;0.4" calcMode="discrete" dur="10s" repeatCount="indefinite"/></text>
-      <text x="464" y="278" font-size="12" fill="#ffd319" opacity="0">5<animate attributeName="opacity" values="0;1;0" keyTimes="0;0.4;0.5" calcMode="discrete" dur="10s" repeatCount="indefinite"/></text>
-      <text x="464" y="278" font-size="12" fill="#ffd319" opacity="0">4<animate attributeName="opacity" values="0;1;0" keyTimes="0;0.5;0.6" calcMode="discrete" dur="10s" repeatCount="indefinite"/></text>
-      <text x="464" y="278" font-size="12" fill="#ffd319" opacity="0">3<animate attributeName="opacity" values="0;1;0" keyTimes="0;0.6;0.7" calcMode="discrete" dur="10s" repeatCount="indefinite"/></text>
-      <text x="464" y="278" font-size="12" fill="#ffd319" opacity="0">2<animate attributeName="opacity" values="0;1;0" keyTimes="0;0.7;0.8" calcMode="discrete" dur="10s" repeatCount="indefinite"/></text>
-      <text x="464" y="278" font-size="12" fill="#ffd319" opacity="0">1<animate attributeName="opacity" values="0;1;0" keyTimes="0;0.8;0.9" calcMode="discrete" dur="10s" repeatCount="indefinite"/></text>
-      <text x="464" y="278" font-size="12" fill="#ffd319" opacity="0">0<animate attributeName="opacity" values="0;1;0" keyTimes="0;0.9;1.0" calcMode="discrete" dur="10s" repeatCount="indefinite"/></text>
-    </g>
 
     <!-- CRT overlays -->
     <rect width="820" height="300" fill="url(#scan)" opacity="0.22"/>
