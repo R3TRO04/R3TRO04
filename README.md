@@ -3,8 +3,6 @@
      already inside a link. -->
 <a><img src="banner.svg" width="100%" alt="Hello World — Nico Thomas Beranek, Software Engineer from Austria" /></a>
 
-<a><img src="icons/tagline.svg" width="100%" alt="Kotlin, Ktor and PostgreSQL · Java, Spring and MySQL · Angular, TypeScript and Sass · Node.js, Deno and MongoDB · PHP, htmx and Redis · Docker, Kubernetes and GitLab CI · JUnit, Mockito and Jest · Fueled by energy drinks" /></a>
-
 <a><img src="icons/h-stack.svg" alt="Choose your weapon — tech stack" /></a>
 
 <a><img src="icons/panel-stack.svg" width="100%" alt="Stage 1 Frontend: Angular, TypeScript, JavaScript, HTML5, CSS3, Sass, Jest, htmx. Stage 2 Backend: Kotlin, Ktor, Java, Spring, PHP, Node.js, JUnit, Mockito. Stage 3 Database and DevOps: MySQL, PostgreSQL, MongoDB, Redis, Docker, Kubernetes, Bash, GitLab, Google Cloud. Stage 4 Tools: Gradle, Maven, Postman, npm, pnpm, Bun, Deno, IntelliJ IDEA, Apidog. Bonus stage, currently exploring: Swift and Gleam." /></a>
